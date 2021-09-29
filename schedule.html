@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Constant Gains</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap" rel="stylesheet"/> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap" rel="stylesheet"/> 
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    
+    <title> Schedule | Constant Gains</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <link rel="apple-touch-icon" href="favicon.png"/>
 </head>
+<style>
+  body{
+width: 100%;
+  }
+ div {
+   max-width: 100%;
+ }
+</style>
 <body>
   <!-- //NAVBAR START -->
 <header>
   <nav class="navbar navbar-expand-md fixed-top bg-transparent navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand justify-content-start" href="#">
+      <a class="navbar-brand justify-content-start" href="index.html">
       <img class="logo" src="images/logo2.svg" width="180">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="ms-5 collapse navbar-collapse justify-content-center" id="navbarCollapse">
-        <ul class="navbar-nav menu ">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+        <ul class="navbar-nav menu">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -56,194 +65,266 @@
   </nav>
 </header>
 <!-- //CAROUSEL/ CALL TO ACTION -->
-<main>
-  <div id="myCarousel" class="carousel slide intro-section section1" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url(https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=80);background-repeat: no-repeat;background-position: center;background-size: cover;">
-        
-
-        <div class="container">
-          <div class="carousel-caption captionbox rounded-1 text-center">
-            <h1 class="heading--large">Calathestics Training</h1>
-            <p class="paragraph--lead">We offer professional calathestic training programs, Run by James hedge</p>
-            <p><a class="btn btn-lg btn-warning" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url(https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500q=80);background-repeat: no-repeat;background-position: center;background-size: cover;">
-       
-
-        <div class="container">
-          <div class="carousel-caption captionbox rounded-1 text-center">
-            <h1 class="heading--large">Weight-Lifting Programs</h1>
-            <p class="paragraph--lead">Our Weightlifting Coaches are internationally recognised and will see you Gaining Heavy muscle</p>
-            <p><a class="btn btn-lg btn-warning" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url(https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=80);background-repeat: no-repeat;background-position: center;background-size: cover;">
-       
-
-        <div class="container">
-          <div class="carousel-caption captionbox rounded-1 text-center">
-            <h1 class="heading--large">Professsional Equipment</h1>
-            <p class="paragraph--lead">Our gym Equipment is made by Titan gears who are our sponsor </p>
-            <p><a class="btn btn-lg btn-warning" href="#">Browse gallery</a></p>
-          </div>
+<section class="section1"></section>
+<main style="background-image:url(https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60);
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat;
+">
+  <section class="schedulebanner-section" >
+  
+    <div class="container" style="padding:120px 0 50px 0;">
+      <div class="row square">
+        <div class="col-sm-8 bg-primary bg-opacity-25 rounded-5">
+            <h4 class="heading--medium text-white fw-bold">Look And Feel Your Best At Constant Gains</h4>
+            <p class="paragraph--description fw-bold mt-2 text-white">Check Our <span style="color:#ffba08;">Weekly Schedule</span></p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </main>
-
-<section class="history-section" style=background-color:#0b7a75;>
-  <div class="container marketing py-5">
-    <div class="row featurette text-white">
-      <div class="col-lg-5 order-md-1">
-        <h3 class="heading--large">Our History</h3>
-           <div class="divider pb-2"></div>
-        <h3 class="heading--medium">We have been Operating since 1972</h3>
-        <p class="paragraph--description">Constant gains gym hires only, the best, highly qualified Instructors. Whos main goal is to help our clients reach their goals , whether thats Strength training or standard fitness training</p>
-      </div>
-      <div class="col-lg-7 order-md-2 ">
-        <img src="https://images.pexels.com/photos/3912953/pexels-photo-3912953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60" class="featurette-image img-fluid">
-      </div>
-    </div>
-    </div>
-    <!-- /END THE FEATURETTES -->
+  
   </section>
-
-<section class="services-section" style=background-color:#020413;>
-    <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="heading--medium  text-center text-white pb-1">What We Offer</h2>   
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pb-5">
-
-      <div class="col">
-        <div class="card h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url(https://images.pexels.com/photos/7937484/pexels-photo-7937484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60);background-repeat: no-repeat;background-position: center;background-size: cover;">
-          <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
-            <h2 class="heading--medium mt-5 mb-4 pt-5">Nutrition Programs</h2>
-             <p class="hidden-paragraph paragraph--description">Our Instructors will provide you with world-class Nutrion Schedules tht are proven to burn fat fast!
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url(https://images.pexels.com/photos/1978505/pexels-photo-1978505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60);background-repeat: no-repeat;background-position: center;background-size: cover;">
-          <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1 align-items-center">
-            <h2 class="heading--medium pt-5 mt-5 mb-4 display-6 lh-1">Strength Programs</h2>
-            <p class="hidden-paragraph paragraph--description">We have highly qualified heavylifting instructors, that are garuenteeded to make yu build muscles fast</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url(https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60);background-repeat: no-repeat;background-position: center;background-size: cover;">
-          <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-            <h2 class="heading--medium pt-5 mt-5 mb-4 display-6 lh-1">Functional Programs</h2>
-             <p class="hidden-paragraph paragraph--description">We Run and operate Function training programs with, Fitness and health in mind.
-          </div>
-        </div>
+  <section class="scheduleinfo-section py-5 bg-secondary bg-opacity-75">
+    <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-md-10 text-white text-center paragraph--description">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore impedit, corrupti odit earum ipsum hic nesciunt tenetur veniam nisi accusamus ducimus aut minima deserunt suscipit accusantium minus sed non fugit.</p>
+        <p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor excepturi eaque itaque illo ipsum? Debitis nulla, aut distinctio excepturi optio aperiam libero esse itaque saepe sint maiores error beatae!.</p>
+       <button type="button" class="btn btn-warning py-3">Get Your Free Consultation</button>
+        
       </div>
     </div>
-  </div>
-</section>
-
-<section class="gallery-section py-2" style=background-color:#0b7a75;>
+    </div>
+  </section>
+  </main>
+  <section class="scheduletable-section" style="background-color: #020413;">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1 class="heading--medium text-center py-2 text-white">Our <span style="color:#ffba08;">Schedule</span></h1>
+         <table class="table text-white" style="border:1px solid #fff">
+            <thead class="tableheaders" style="background-color: #E54444;">
+        <tr class="paragraph--table">
+              <th>TIME</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednsday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+        </tr>
+            </thead>
+            <tbody style="border: none;background-color: #020413;">
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">6:00am</td>
+          <td data-label="Monday" class="paragraph--writing">
+            <span class="mobileheading">Monday</span>
+            <br>
+            Class 1<br>
+          6:00am<br>7:00am
+          </td>
+          <td data-label="Tuesday" class="paragraph--writing">
+            <span class="mobileheading">Tuesday</span>
+            <br>
+            Class 1<br>
+          6:00am<br>7:00am
+          </td>
+          <td data-label="Wednsday" class="paragraph--writing">
+            <span class="mobileheading">Wednsday</span>
+            <br>
+            Class 1<br>
+          6:00am<br>7:00am
+          </td>
+          <td data-label="Thursday" class="paragraph--writing">
+            <span class="mobileheading">Thursday</span>
+            <br>
+            Class 1<br>
+          6:00am<br>7:00am
+          </td>
+          <td data-label="Friday" class="paragraph--writing">
+             <span class="mobileheading">Friday</span>
+            <br>
+            Class 1<br>
+          6:00am<br>7:00am
+          </td>
+          <td class="paragraph--writing"><span class="mobileheading">Saturday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Sunday</span></td>
+        </tr>
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">7:00am</td>
+          <td data-label="Monday" class="paragraph--writing">
+             <span class="mobileheading">Monday</span>
+            <br>
+            Class 2<br>
+          7:00am<br>8:00am
+          </td>
+          <td data-label="Tuesday" class="paragraph--writing">
+             <span class="mobileheading">Tuesday</span>
+            <br>
+            Class 2<br>
+          7:00am<br>8:00am
+          </td>
+          <td data-label="Wednsday" class="paragraph--writing">
+             <span class="mobileheading">Wednsday</span>
+            <br>
+            Class 2<br>
+          7:00am<br>8:00am
+          </td>
+          <td data-label="Thursday" class="paragraph--writing">
+             <span class="mobileheading">Thursday</span>
+            <br>
+            Class 2<br>
+          7:00am<br>8:00am
+          </td>
+          <td data-label="Friday" class="paragraph--writing">
+             <span class="mobileheading">Friday</span>
+            <br>
+            Class 2<br>
+          7:00am<br>8:00am
+          </td>
+          <td class="paragraph--writing"><span class="mobileheading">Saturday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Sunday</span></td>
+          
+        </tr>
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">8:00am</td>
+         <td class="paragraph--writing"><span class="mobileheading">Monday</span></td>
+         <td class="paragraph--writing"><span class="mobileheading">Tuesday</span></td>
+         <td class="paragraph--writing"><span class="mobileheading">Wednsday</span></td>
+         <td class="paragraph--writing"><span class="mobileheading">Thursday</span></td>
+         <td class="paragraph--writing"><span class="mobileheading">Friday</span></td>
+         <td data-label="Saturday" class="paragraph--writing">Saturday Class<br>
+          <span class="mobileheading">Saturday</span>
+            <br>
+          8:00am<br>9:00am
+          </td>
+          <td class="paragraph--writing">Sunday</td>
+        </tr>
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">12:00am</td>
+          <td data-label="Monday" class="paragraph--writing">
+             <span class="mobileheading">Monday</span>
+            <br>
+            Class 3<br>
+          12:00pm<br>1:00pm
+          </td>
+          <td data-label="Tuesday" class="paragraph--writing">
+             <span class="mobileheading">Tuesday</span>
+            <br>
+            Class 3<br>
+          12:00pm<br>1:00pm
+          </td>
+          <td data-label="Wednsday" class="paragraph--writing">
+             <span class="mobileheading">Wednsday</span>
+            <br>
+            Class 3<br>
+          12:00pm<br>1:00pm
+          </td>
+          <td data-label="Thursday" class="paragraph--writing">
+             <span class="mobileheading">Thursday</span>
+            <br>
+            Class 3<br>
+          12:00pm<br>1:00pm
+          </td>
+          <td data-label="Friday" class="paragraph--writing">
+             <span class="mobileheading">Friday</span>
+            <br>
+            Class 3<br>
+          12:00pm<br>1:00pm
+          </td>
+          <td class="paragraph--writing"><span class="mobileheading">Saturday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Sunday</span></td>
+        </tr>
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">5:00pm</td>
+          <td data-label="Monday" class="paragraph--writing">
+             <span class="mobileheading">Monday</span>
+            <br>
+            Class 4<br>
+          5:00pm<br>6:00pm
+          </td>
+          <td data-label="Tuesday" class="paragraph--writing">
+             <span class="mobileheading">Tuesday</span>
+            <br>
+            Class 4<br>
+          5:00pm<br>6:00pm
+          </td>
+          <td data-label="Wednsday" class="paragraph--writing">
+             <span class="mobileheading">Wednsday</span>
+            <br>
+            Class 4<br>
+          5:00pm<br>6:00pm
+          </td>
+          <td data-label="Thursday" class="paragraph--writing">
+             <span class="mobileheading">Thursday</span>
+            <br>
+            Class 4<br>
+          5:00pm<br>6:00pm
+          </td>
+          <td data-label="Friday" class="paragraph--writing">
+             <span class="mobileheading">Friday</span>
+            <br>
+            Class 4<br>
+          5:00pm<br>6:00pm
+          </td>
+          <td class="paragraph--writing"><span class="mobileheading">Saturday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Sunday</span></td>
+        </tr>
+        <tr class="middle">
+          <td scope="row" class="rowheading paragraph--table" style="border: 1px solid #fff;">6:00pm</td>
+          <td data-label="Monday" class="paragraph--writing">
+             <span class="mobileheading">Monday</span>
+            <br>
+            Class 5<br>
+          6:00pm<br>7:00pm
+          </td>
+          <td data-label="Tuesday" class="paragraph--writing">
+             <span class="mobileheading">Tuesday</span>
+            <br>
+            Class 5<br>
+          6:00pm<br>7:00pm
+          </td>
+          <td data-label="Wednsday" class="paragraph--writing">
+             <span class="mobileheading">Wednsday</span>
+            <br>
+            Class 5<br>
+          6:00pm<br>7:00pm
+          </td>
+          <td data-label="Thursday" class="paragraph--writing">
+             <span class="mobileheading">Thursday</span>
+            <br>
+            Class 5<br>
+          6:00pm<br>7:00pm
+          </td>
+          <td class="paragraph--writing"><span class="mobileheading">Friday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Saturday</span></td>
+          <td class="paragraph--writing"><span class="mobileheading">Sunday</span></td>
+        </tr>
+            </tbody>
+        </table>
+       </div>
+      </div>
+    </div>
+    
+  </section>
+ <section class="calltoaction-section" style=background-color:#0b7a75;>
 <div class="container">
-  <h2 class="heading--medium pb-2 text-center text-white pt-3">Gallery</h2>
-     <div class="photo-grid p-1">
-    <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/1552104/pexels-photo-1552104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/2468339/pexels-photo-2468339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/2475875/pexels-photo-2475875.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/3621731/pexels-photo-3621731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/6456163/pexels-photo-6456163.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)">
-       
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)"
-      >
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/4164849/pexels-photo-4164849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)"
-      >
-      
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/6551174/pexels-photo-6551174.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)"
-      >
-        
-      </div>
-      <div
-        class="gcard"
-        style="background-image:url(https://images.pexels.com/photos/4162481/pexels-photo-4162481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60)"
-      >
-        
-      </div>
-      <div
-        class="gcard" style="background-image:url(https://images.pexels.com/photos/348489/pexels-photo-348489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=60);"
-      >
-      </div>  
-      </div>
-    </div>
-</section>
-<section class="calltoaction-section" style=background-color:#0b7a75;>
-  <div class="row">
-    <div class="col-md-8 offset-2 py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 py-5">
  <div class="p-5 mb-4 bg-primary rounded-3">
       <div class="container-fluid py-5 text-center text-white">
         <h1 class="heading--medium">Get a Free Consultation</h1>
-        <p class="paragraph--description">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn btn-warning btn-lg" type="button">Book Appointment</button>
+        <p class="paragraph--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia laboriosam quia ipsam, molestiae libero est eligendi enim dolore natus quas debitis. Magnam, corrupti aperiam repellendus officia omnis deserunt similique.</p>
+        <a class="btn btn-warning btn-lg paragraph--description" type="button" href="contact.html">Book Consultation</a>
       </div>
       </div>
+    </div>
     </div>
     </div>
 </section>
+
+
+
 <!-- //Foooter -->
 
   <footer class="p-5" style="background-color: #020413;">
@@ -305,8 +386,7 @@
   <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg>
 </a>
-</button>
 </body>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/sectionObserver.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/sectionObserversimple.js"></script>
 </html>

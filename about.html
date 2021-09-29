@@ -9,21 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap" rel="stylesheet"/> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap" rel="stylesheet"/> 
     <link rel="stylesheet" href="assets/css/style.css"/>
-    <title>Constant Gains</title>
+    <title>About | Constant Gains</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <link rel="apple-touch-icon" href="favicon.png"/>
     
 </head>
 <style>
- div{
+ body{
     width:100%;
   }
- 
+ div {
+   max-width: 100%;
+ }
 </style>
 <body>
   <!-- //NAVBAR START -->
 <header>
-  <nav class="navbar navbar-expand-md fixed-top bg-transparent navbar-dark">
+  <nav class="navbar navbar-expand-md fixed-top bg-primary navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand justify-content-start" href="index.html">
       <img class="logo" src="images/logo2.svg" width="180">
@@ -31,7 +33,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+      <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
         <ul class="navbar-nav menu">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -71,9 +73,9 @@ background-repeat: no-repeat;
 background-position-y: 20%;
 ">
     <div class="container" style="padding:120px 0 50px 0;">
-      <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 bg-primary bg-opacity-50 rounded-4">
-            <h4 class="heading--large text-white fw-bold">The Best Gym In<br> Cape Town</h4>
+      <div class="row justify-content-start">
+        <div class="col-sm-8 bg-primary bg-opacity-25 rounded-5">
+            <h2 class="heading--large text-white fw-bold">The Best Gym In Cape Town</h2>
             <p class="paragraph--description fw-bold mt-2 text-white">Strength <span style="color:#ffba08;">+</span> Mobility <span style="color: #ffba08;">+</span> Nutrition</p>
         </div>
       </div>
@@ -90,13 +92,14 @@ background-position-y: 20%;
            <p class="paragraph--description">
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt illum quam, commodi modi maiores quis aspernatur quia odio ipsum accusantium, dolor nihil eaque in similique aperiam facere dignissimos earum!
            </p>
-           <button type="button" class="btn btn-outline-warning text-start paragraph--description">
+           <a type="button" class="btn btn-outline-warning text-start paragraph--description" href="contact.html">
              Book A Free Consultation
-           </button>
+           </a>
          </div>
          <div class="col-md-4 col-sm-1 rounded-4" style="background-image: url(https://images.pexels.com/photos/4720309/pexels-photo-4720309.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500q=50);background-size: cover;
 background-position: center center;
-background-repeat: no-repeat;">
+background-repeat: no-repeat;
+border:1px solid #fff">
 
          </div>
       </div>
@@ -146,8 +149,8 @@ background-repeat: no-repeat;">
  <div class="p-5 mb-4 bg-primary rounded-3">
       <div class="container py-5 text-center text-white">
         <h1 class="heading--medium">Get a Free Consultation</h1>
-        <p class="paragraph--description">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn btn-warning btn-lg paragraph--description" type="button">Book Appointment</button>
+        <p class="paragraph--description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad sed excepturi quibusdam molestiae voluptate laboriosam nam repellat similique autem, dicta molestias nisi tempora ea nesciunt aliquam veritatis sequi dolores natus!</p>
+        <a class="btn btn-warning btn-lg paragraph--description" type="button" href="contact.html">Book Free Consultation</a>
       </div>
       </div>
     </div>
@@ -163,11 +166,11 @@ background-repeat: no-repeat;">
       <div class="col-md-2 px-1">
         <h5 class="heading--small">Resources</h5>
         <ul class="nav flex-column paragraph--writing">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+          <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">About</a></li>
         </ul>
       </div>
 
@@ -220,5 +223,5 @@ background-repeat: no-repeat;">
 </a>
 </body>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/sectionObserver.js"></script>
+<script src="assets/js/sectionObserversimple.js"></script>
 </html>
